@@ -4,7 +4,7 @@ import { TablaPersonasComponent } from "./components/tabla-personas/tabla-person
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TablaPersonasComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
